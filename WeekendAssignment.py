@@ -75,10 +75,15 @@ def request():
 def getData(webPage):
     Data = webPage.content
     Data = str(Data)
+    #only get the primary info for this youtube video
     Data = Data[Data.find('primary-info'):]
+    #get the viewcount
     Data = Data[Data.find('"viewCount":{"simpleText":"'):]
+    #get everything after the views
     Data = Data.split(" views")[0]
+    #split my string to get my views
     Data = Data.split('"')
+    #only grab the views.
     Data = Data[-1]
     
     return Data
