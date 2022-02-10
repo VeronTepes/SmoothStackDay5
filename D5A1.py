@@ -31,3 +31,32 @@ Created on Wed Feb  9 15:37:52 2022
 #answer:
 #over normal under
 
+#get number of people
+numpeople = input("How many people are we calculating the BMI for? ")
+
+BMI = []
+
+#for all people get height and weight on same line.
+for i in range(0, int(numpeople)):
+    #get height and weight on same line.
+    weight, height = input("Please enter person {}'s weight and height (i.e. 80 1.73): ".format(i)).split()
+    
+    #make height and weight into floating instead of strings.
+    height = float(height)
+    weight = float(weight)
+    #print(type(height))
+    #print(type(weight))
+    
+    #calculate BMI
+    BMI.append((weight/pow(height,2)))
+    
+#output the bmi's
+for i in range(0, int(numpeople)):
+    if BMI[i] < 18.5:
+        print("Person number {} is Underweight.".format(i+1))
+    elif BMI[i] < 25:
+        print("Person number {} is a Normal Weight.".format(i+1))
+    elif BMI[i] < 30:
+        print("Person number {} is Overweight.".format(i+1))
+    else:
+        print("Person number {} is Obese.".format(i+1))
