@@ -22,10 +22,12 @@ import requests
 #Keyword :python
 
 #create variables
+
 page = ""
 key = ""
 
 #functions
+
 #main function to run.
 def main():
         #request the user to get the url and key
@@ -55,8 +57,8 @@ def request():
     
     
     ##for testing purposes auto make key and page correct pages.
-    page = "https://www.youtube.com/watch?v=kTj8-_Xkt1A"
-    key = "python"
+    #page = "https://www.youtube.com/watch?v=kTj8-_Xkt1A"
+    #key = "python"
     
     
     #force valid input.
