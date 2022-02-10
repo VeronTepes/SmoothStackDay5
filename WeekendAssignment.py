@@ -6,6 +6,7 @@ Created on Wed Feb  9 16:48:18 2022
 """
 #do imports
 import requests
+import getpass
 
 #Coding Exercise 10: Web scrapping exercise
 #Rules of this Project :
@@ -53,7 +54,8 @@ def request():
     page = input("Please enter in the youtube URL you want to know how many views it has: ")
 
     #get keywork
-    key = input("Please enter in the correct keyword: ")
+
+    key = getpass.getpass('Password:')
     
     
     ##for testing purposes auto make key and page correct pages.
