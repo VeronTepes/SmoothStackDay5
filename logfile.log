@@ -1,76 +1,137 @@
-2022-02-12 10:13:59,644 - getting what row I need.
-2022-02-12 10:13:59,644 - getting row num I need
-2022-02-12 10:13:59,644 - Getting Data
-2022-02-12 10:13:59,645 - Calls Offered: 22343
-2022-02-12 10:13:59,645 - Abandoned after 30s: 0.0305
-2022-02-12 10:13:59,645 - FCR: 0.86
-2022-02-12 10:13:59,645 - DSAT: 0.18
-2022-02-12 10:13:59,645 - CSAT: 0.744
-2022-02-12 10:16:55,314 - getting row num I need
-2022-02-12 10:16:55,314 - Getting Data
-2022-02-12 10:16:55,314 - Calls Offered: 22343 
-2022-02-12 10:16:55,314 - Abandoned after 30s : 0.0305 : 3.05%
-2022-02-12 10:16:55,314 - FCR : 0.86 : 86.0%
-2022-02-12 10:16:55,314 - DSAT : 0.18 : 18.0%
-2022-02-12 10:16:55,314 - CSAT : 0.744 : 74.4%
-2022-02-12 10:18:16,170 - getting row num I need
-2022-02-12 10:18:16,170 - Getting Data
-2022-02-12 10:18:16,170 - Calls Offered: 22343 
-2022-02-12 10:18:16,170 - Abandoned after 30s : 0.0305 : 3.05%
-2022-02-12 10:18:16,170 - FCR : 0.86 : 86.0%
-2022-02-12 10:18:16,170 - DSAT : 0.18 : 18.0%
-2022-02-12 10:18:16,170 - CSAT : 0.744 : 74.4%
-2022-02-12 10:18:39,379 - getting row num I need
-2022-02-12 10:18:39,379 - Data for march 18
-2022-02-12 10:18:39,379 - Getting Data
-2022-02-12 10:18:39,379 - Calls Offered: 22343 
-2022-02-12 10:18:39,379 - Abandoned after 30s : 0.0305 : 3.05%
-2022-02-12 10:18:39,379 - FCR : 0.86 : 86.0%
-2022-02-12 10:18:39,379 - DSAT : 0.18 : 18.0%
-2022-02-12 10:18:39,379 - CSAT : 0.744 : 74.4%
-2022-02-12 10:20:26,967 - getting row num I need
-2022-02-12 10:20:26,967 - Getting Data
-2022-02-12 10:20:26,967 - Data for: 2018-03-18 00:00:00
-2022-02-12 10:20:26,967 - Calls Offered: 22343 
-2022-02-12 10:20:26,968 - Abandoned after 30s : 0.0305 : 3.05%
-2022-02-12 10:20:26,968 - FCR : 0.86 : 86.0%
-2022-02-12 10:20:26,968 - DSAT : 0.18 : 18.0%
-2022-02-12 10:20:26,968 - CSAT : 0.744 : 74.4%
-2022-02-12 10:20:50,422 - getting row num I need
-2022-02-12 10:20:50,422 - Getting Data
-2022-02-12 10:21:05,017 - getting row num I need
-2022-02-12 10:21:05,018 - Getting Data
-2022-02-12 10:21:05,018 - Data for: 2018-03-18
-2022-02-12 10:21:05,018 - Calls Offered: 22343 
-2022-02-12 10:21:05,018 - Abandoned after 30s : 0.0305 : 3.05%
-2022-02-12 10:21:05,018 - FCR : 0.86 : 86.0%
-2022-02-12 10:21:05,018 - DSAT : 0.18 : 18.0%
-2022-02-12 10:21:05,018 - CSAT : 0.744 : 74.4%
-2022-02-12 10:21:30,398 - getting row num I need
-2022-02-12 10:21:30,398 - Getting Data
-2022-02-12 10:21:30,398 - 
-Data for 2018-03-18: /n
-2022-02-12 10:21:30,399 - Calls Offered: 22343 
-2022-02-12 10:21:30,399 - Abandoned after 30s : 0.0305 : 3.05%
-2022-02-12 10:21:30,399 - FCR : 0.86 : 86.0%
-2022-02-12 10:21:30,399 - DSAT : 0.18 : 18.0%
-2022-02-12 10:21:30,399 - CSAT : 0.744 : 74.4%
-2022-02-12 10:21:43,643 - getting row num I need
-2022-02-12 10:21:43,643 - Getting Data
-2022-02-12 10:21:43,643 - 
-Data for 2018-03-18: 
+2022-02-13 20:34:14,633 - Could not open workbook.
+2022-02-13 20:36:11,724 - Could not open workbook.
+2022-02-13 20:39:23,866 - Could not open workbook.
+2022-02-13 20:39:56,495 - Could not open workbook.
+2022-02-13 20:40:40,335 - Could not open workbook.
+2022-02-13 20:41:21,878 - Could not open workbook.
+2022-02-13 20:42:05,042 - Could not open workbook.
+2022-02-13 20:42:22,820 - Could not open workbook.
+2022-02-13 20:45:47,352 - Could not open workbook.
+2022-02-13 20:48:13,703 - Could not open workbook.
+2022-02-13 20:49:31,614 - Could not open workbook.
+2022-02-13 20:50:54,294 - Could not open workbook.
+2022-02-13 20:51:47,306 - Could not open workbook.
+2022-02-13 20:52:06,244 - Could not open workbook.
+2022-02-13 20:53:04,042 - Could not open workbook.
+2022-02-13 20:53:38,597 - Could not open workbook.
+2022-02-13 20:54:05,862 - Could not open workbook.
+2022-02-13 20:54:35,217 - Could not open workbook.
+2022-02-13 20:54:39,625 - Could not open workbook.
+2022-02-13 20:55:27,580 - Could not open workbook.
+2022-02-13 20:56:34,414 - Could not open workbook.
+2022-02-13 20:57:31,580 - Could not open workbook.
+2022-02-13 20:57:31,580 - getting row num I need
+2022-02-13 20:57:31,580 - Getting Data
+2022-02-13 20:58:34,321 - Could not open workbook.
+2022-02-13 20:58:34,322 - getting row num I need
+2022-02-13 20:58:34,324 - Getting Data
+2022-02-13 20:59:38,734 - Could not open workbook.
+2022-02-13 20:59:38,734 - getting row num I need
+2022-02-13 20:59:38,735 - Getting Data
+2022-02-13 21:00:08,461 - Could not open workbook.
+2022-02-13 21:00:08,461 - getting row num I need
+2022-02-13 21:00:08,462 - Getting Data
+2022-02-13 21:00:56,240 - Could not open workbook.
+2022-02-13 21:00:56,240 - getting row num I need
+2022-02-13 21:00:56,241 - Getting Data
+2022-02-13 21:03:04,500 - Could not open workbook.
+2022-02-13 21:03:04,500 - getting row num I need
+2022-02-13 21:03:04,501 - Getting Data
+2022-02-13 21:03:48,998 - Could not open workbook.
+2022-02-13 21:03:48,998 - getting row num I need
+2022-02-13 21:03:48,998 - Getting Data
+2022-02-13 21:04:33,801 - Could not open workbook.
+2022-02-13 21:04:33,801 - getting row num I need
+2022-02-13 21:04:33,802 - Getting Data
+2022-02-13 21:05:32,195 - Could not open workbook.
+2022-02-13 21:05:32,195 - getting row num I need
+2022-02-13 21:05:32,196 - Getting Data
+2022-02-13 21:06:29,558 - Could not open workbook.
+2022-02-13 21:06:29,558 - getting row num I need
+2022-02-13 21:06:29,559 - Getting Data
+2022-02-13 21:09:15,138 - Could not open workbook.
+2022-02-13 21:09:15,138 - getting row num I need
+2022-02-13 21:09:15,139 - Getting Data
+2022-02-13 21:09:24,014 - Could not open workbook.
+2022-02-13 21:09:24,014 - getting row num I need
+2022-02-13 21:09:24,014 - Getting Data
+2022-02-13 21:12:10,779 - Could not open workbook.
+2022-02-13 21:12:10,779 - getting row num I need
+2022-02-13 21:12:10,780 - Getting Data
+2022-02-13 21:30:48,869 - Could not open workbook.
+2022-02-13 21:30:48,870 - getting row num I need
+2022-02-13 21:30:48,870 - Getting Data
+2022-02-13 21:31:47,332 - Could not open workbook.
+2022-02-13 21:31:47,332 - getting row num I need
+2022-02-13 21:31:47,333 - Getting Data
+2022-02-13 21:41:48,846 - Could not open workbook.
+2022-02-13 21:41:48,846 - getting row num I need
+2022-02-13 21:42:28,644 - Could not open workbook.
+2022-02-13 21:42:28,644 - getting row num I need
+2022-02-13 21:42:28,645 - Getting Data
+2022-02-13 21:44:10,522 - Could not open workbook.
+2022-02-13 21:44:10,522 - getting row num I need
+2022-02-13 21:44:10,522 - Getting Data
+2022-02-13 21:45:48,209 - Could not open workbook.
+2022-02-13 21:45:48,209 - getting row num I need
+2022-02-13 21:45:48,209 - Getting Data
+2022-02-13 21:46:15,990 - Could not open workbook.
+2022-02-13 21:46:15,990 - getting row num I need
+2022-02-13 21:46:15,990 - Getting Data
+2022-02-13 21:46:50,626 - Could not open workbook.
+2022-02-13 21:46:50,626 - getting row num I need
+2022-02-13 21:46:50,626 - Getting Data
+2022-02-13 21:47:34,463 - Could not open workbook.
+2022-02-13 21:47:34,463 - getting row num I need
+2022-02-13 21:47:34,464 - Getting Data
+2022-02-13 21:49:50,386 - Could not open workbook.
+2022-02-13 21:49:50,387 - getting row num I need
+2022-02-13 21:49:50,387 - Getting Data
+2022-02-13 21:50:58,348 - Could not open workbook.
+2022-02-13 21:51:11,378 - Could not open workbook.
+2022-02-13 21:51:11,378 - getting row num I need
+2022-02-13 21:51:11,378 - Getting Data
+2022-02-13 21:54:20,433 - Could not open workbook.
+2022-02-13 21:54:20,433 - getting row num I need
+2022-02-13 21:54:20,434 - Getting Data
+2022-02-13 21:55:32,754 - Could not open workbook.
+2022-02-13 21:55:32,755 - Getting Data
+2022-02-13 21:55:32,755 - getting row num I need
+2022-02-13 21:55:43,354 - Could not open workbook.
+2022-02-13 21:55:43,354 - Getting Data
+2022-02-13 21:55:43,355 - getting row num I need
+2022-02-13 21:56:21,418 - Could not open workbook.
+2022-02-13 21:56:21,419 - Getting Data
+2022-02-13 21:56:21,419 - getting row num I need
+2022-02-13 21:57:16,639 - Could not open workbook.
+2022-02-13 21:57:16,639 - Getting Data
+2022-02-13 21:57:16,639 - getting row num I need
+2022-02-13 21:59:03,366 - Could not open workbook.
+2022-02-13 21:59:03,366 - Getting Data
+2022-02-13 21:59:03,367 - getting row num I need
+2022-02-13 21:59:19,150 - Could not open workbook.
+2022-02-13 21:59:19,150 - Getting Data
+2022-02-13 21:59:19,150 - getting row num I need
+2022-02-13 22:02:26,987 - Could not open workbook.
+2022-02-13 22:02:26,987 - Getting Data
+2022-02-13 22:02:26,987 - getting row num I need
+2022-02-13 22:02:26,988 - Data for 2018-03-18: 
 
-2022-02-12 10:21:43,643 - Calls Offered: 22343 
-2022-02-12 10:21:43,643 - Abandoned after 30s : 0.0305 : 3.05%
-2022-02-12 10:21:43,643 - FCR : 0.86 : 86.0%
-2022-02-12 10:21:43,643 - DSAT : 0.18 : 18.0%
-2022-02-12 10:21:43,643 - CSAT : 0.744 : 74.4%
-2022-02-12 10:22:01,636 - getting row num I need
-2022-02-12 10:22:01,636 - Getting Data
-2022-02-12 10:22:01,637 - Data for 2018-03-18: 
+2022-02-13 22:02:26,988 - Calls Offered: 22343 
+2022-02-13 22:02:26,989 - Abandoned after 30s : 0.0305 : 3.05%
+2022-02-13 22:02:26,989 - FCR : 0.86 : 86.0%
+2022-02-13 22:02:26,989 - DSAT : 0.18 : 18.0%
+2022-02-13 22:02:26,989 - CSAT : 0.744 : 74.4%
+2022-02-13 22:04:35,454 - Could not open workbook.
+2022-02-13 22:04:35,455 - Getting Data
+2022-02-13 22:04:35,455 - getting row num I need
+2022-02-13 22:04:35,455 - Data for 2018-03-18: 
 
-2022-02-12 10:22:01,637 - Calls Offered: 22343 
-2022-02-12 10:22:01,637 - Abandoned after 30s : 0.0305 : 3.05%
-2022-02-12 10:22:01,637 - FCR : 0.86 : 86.0%
-2022-02-12 10:22:01,637 - DSAT : 0.18 : 18.0%
-2022-02-12 10:22:01,637 - CSAT : 0.744 : 74.4%
+2022-02-13 22:04:35,455 - Calls Offered: 22343 
+2022-02-13 22:04:35,455 - Abandoned after 30s : 0.0305 : 3.05%
+2022-02-13 22:04:35,455 - FCR : 0.86 : 86.0%
+2022-02-13 22:04:35,455 - DSAT : 0.18 : 18.0%
+2022-02-13 22:04:35,455 - CSAT : 0.744 : 74.4%
+2022-02-13 22:06:48,145 - Could not open workbook.
+2022-02-13 22:06:48,145 - Getting Data
+2022-02-13 22:06:48,145 - getting row num I need

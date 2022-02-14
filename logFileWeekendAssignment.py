@@ -15,16 +15,18 @@ from openpyxl import load_workbook
 wb = ""
 
 
+
 #functions
 def main():
     #create logger
     myLog = logger()
+    workbook = load_workbook("expedia_report_monthly_march_2018.xlsx")
     
     try:
         #if they don't pass in what they want assume this file
         if(len(sys.argv)<2):
-            workbook = load_workbook('expedia_report_monthly_march_2018.xlsx')
-            wb = 'expedia_report_monthly_march_2018.xlsx'
+            path = input("Please enter in the file location of the expedia report you want: ")
+            workbook = load_workbook(path)
             #otherwise take what was passed in.
         else:
             workbook = load_workbook(sys.argv[1])
@@ -32,10 +34,12 @@ def main():
     except:
         myLog.error("Could not open workbook.")
     
+    #print(workbook.sheetnames)
     workbook.move_sheet("Summary Rolling MoM")
     sheet = workbook.active
+
     
-    getData(wantedRow(myLog, wb, sheet), sheet, myLog)
+    getData( sheet, myLog, path)
 
     
     
@@ -58,7 +62,11 @@ def logger():
 #find what row I want
 def wantedRow(myLog, wb, sheet):
     #get the month and year to loop through on the file
+    wb = wb.split("\\")[-1]
+    #print(wb)
     wb = wb.split('.')[0]
+
+    #print(wb)
     month = wb.split('_')[-2]
     year = wb.split('_')[-1]
     year = year[2] + year[3]
@@ -76,19 +84,27 @@ def wantedRow(myLog, wb, sheet):
         val = str(sheet.cell(row=x, column=1).value)
         val = val.split(" ")[0]
         if(val.split("-")[-1] == year and int(val.split("-")[-2]) == monthNum(month)):
+            #print("row I want is: " + str(x))
             return x
 
 #get my data from a given row    
-def getData(row,sheet, myLog):
+def getData(sheet, myLog, path):
     myLog.error("Getting Data")
     
     valuesDict = ("Calls Offered", "Abandoned after 30s", "FCR", "DSAT", "CSAT")
     values = []
     
-    for i in range(2, 7):
-        values.append(sheet.cell(row = row, column = i).value)
+    myRow = wantedRow(myLog, path, sheet)
+    
+    #print("my row is: {}".format(myRow))
+    
+    #This isn't working fix me *****************************************************************************
+    #for i in range(2,7):
+    #    values.append(sheet.cell(row = myRow, column = i).value)
+    values.append(sheet.cell(row = myRow, column = range(2,7)).value)
         
-    myLog.error("Data for {}: \n".format(str(sheet.cell(row=row, column = 1).value).split(" ")[0]))
+        
+    myLog.error("Data for {}: \n".format(str(sheet.cell(row = myRow, column = 1).value).split(" ")[0]))
         
     for i in range(0, len(valuesDict)):
         if i == 0:
@@ -99,30 +115,20 @@ def getData(row,sheet, myLog):
     
 #get month num
 def monthNum(str):
-    if str == 'january':
-        return 1
-    elif str == 'february':
-        return 2
-    elif str == 'march':
-        return 3
-    elif str == 'april':
-        return 4
-    elif str == 'may':
-        return 5
-    elif str == 'june':
-        return 6
-    elif str == 'july':
-        return 7
-    elif str == 'august':
-        return 8
-    elif str == 'september':
-        return 9
-    elif str == 'october':
-        return 10
-    elif str == 'november':
-        return 11
-    else:
-        return 12
+    months = {"january": 1,
+              "february": 2,
+              "march": 3,
+              "april": 4,
+              "may": 5,
+              "june": 6,
+              "july": 7,
+              "august": 8,
+              "september": 9,
+              "october": 10,
+              "november": 11,
+              "december": 12,
+              }
+    return months[str]
 
 #start the program by calling the main function
 main()
